@@ -102,7 +102,6 @@ hr{
 }
 .service-intro h1{
     padding-bottom: 30px;
-
 }
 .line2{
     width:100px;
@@ -166,8 +165,7 @@ hr{
     margin-left: -3px;
     top: 0;
   }
-.form{
-    
+.form{  
     width:400px;
     border:2px solid black;
     border-radius: 2px;
