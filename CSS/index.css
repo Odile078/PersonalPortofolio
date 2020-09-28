@@ -185,3 +185,40 @@ hr{
     padding:30px;
     font-size: 20px;
 }
+
+/*footer*/
+footer{
+    height: 200px;
+    background-color: black;
+    margin-top: -35px;
+
+}
+.message{
+    padding-left: 50px;
+    padding-top:50px;
+}
+.messageh{
+    color: white;
+}
+.messagep{
+    color: white;
+}
+
+.contact-media{
+    padding-top:50px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+   
+
+}
+.contact-media a{
+    padding-left:60px;
+    color: white;
+    display: inline;
+    
+}
+.but a{
+    color:white;
+    text-decoration: none;;
+}
