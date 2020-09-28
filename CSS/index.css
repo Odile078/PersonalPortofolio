@@ -150,3 +150,12 @@ hr{
     transform:scale(1.05);
 	box-shadow:0 0 40px -10px rgba(0,0,0,0.24);
 }
+
+/*About me section*/
+.profile{
+    padding-left: 200px;
+}
+.profile img{
+    border-radius: 50%;
+    width: 400px;
+}
