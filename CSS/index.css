@@ -222,3 +222,238 @@ footer{
     color:white;
     text-decoration: none;;
 }
+
+/*Media queries*/
+@media screen and (max-width:1200px){
+    .line{
+        width:40px;
+        height:3px;
+        margin-left: 150px;
+        margin-top: 15px;
+    
+    }
+    /*services section*/
+    .service1{
+        padding-left: 25px;
+        padding-bottom: 30px;
+    }
+    .service2{
+        padding-left: 20px;
+    }
+    .service3{
+        padding-left: 200px;
+    }
+    /*About me section*/
+    .profile{
+        padding-left: 100px;
+    }
+    .profile-s{
+        font-size:20px;
+    }
+    /*contact me section*/
+    .form{
+        margin-left:250px;
+    }
+    
+}
+@media screen and (max-width:800px){
+    .menu{
+        height: 100px;     
+        padding-bottom: 20px;
+    }
+    .line{
+        width:40px;
+        height:3px;
+        margin-left: 60px;
+        margin-top: 15px;
+    
+    }
+    /*services section*/
+    .card1{
+        width: 20rem;
+    }
+    .card2{
+        width: 20rem;
+    }
+    .service1{
+        padding-left: 35px;
+       
+    }
+    .service3{
+        padding-left: 70px;
+    }
+
+    /*about me section*/
+    .profile{
+        padding-left: 50px;
+        padding-top:70px;
+    }
+    .profile-s{
+        font-size:20px;
+    }
+    .profile img{
+        width: 300px;
+    }
+    /*contact me section*/
+    .form{
+        margin-left:150px;
+    }
+    /**/
+    
+}
+@media screen and (max-width:480px){
+    
+}
+
+@media screen and (max-width:500px){
+    .menu{
+        height: 100px;
+        background-color: black;      
+        padding-bottom: 20px;;
+    }
+    .side-menu2{
+        padding-top: 3px;
+        padding-right: 40px;
+       
+        
+    }
+    .side-menu2 a{
+        padding-left: 10px;
+        
+    }
+    .line{
+        margin-left: 20px;
+        margin-top: -20px;
+    }
+    .welcome{
+        
+       
+    }
+    footer{
+        height: 300px;
+       
+    
+    }
+
+}
+
+@media screen and (max-width:400px){
+    .line{
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    .side-menu2 a:hover{
+        font-size: 14px;  
+        transition:max-width ease .3s;
+    
+    }
+    .side-menu2 a:nth-child(2):hover ~ .line{
+        transform:translate(70px);
+        width:35px;
+    }
+    .side-menu2 a:nth-child(3):hover ~ .line{
+        transform:translate(140px);
+        width:35px;
+    }
+    .side-menu2 a:nth-child(4):hover ~ .line{
+        transform:translate(220px);
+        width:35px;
+    }
+    /*services section*/
+    .card3 {
+        width:20rem;
+    }
+    .service3{
+        padding-left:30px;
+    }
+    .service2{
+        padding-left:30px;
+    }
+    .profile-s{
+        font-size: 15px;
+        
+    }
+    .form{
+        padding-left:2px;
+        padding-right:2px;
+        margin-left:10px;
+        width:300px;
+    }
+    /* footer*/
+    footer{
+        height:400px;
+    }
+    .contact-media{
+        padding-left:70px; 
+        
+    }
+    .contact-media a{
+        padding-left:90px;    
+    }
+    
+}
+@media screen and (max-width:450px){
+    .line{
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .side-menu2 a:nth-child(2):hover ~ .line{
+        transform:translate(80px);
+        width:35px;
+    }
+    .side-menu2 a:nth-child(3):hover ~ .line{
+        transform:translate(140px);
+        width:35px;
+    }
+    .side-menu2 a:nth-child(4):hover ~ .line{
+        transform:translate(200px);
+        width:35px;
+    }
+    /*about*/
+    .profile-s{
+        font-size: 16px;
+    }
+    /*services*/
+    .card3{
+        width:20rem
+    }
+    .service1{
+        padding-left: 60px;
+    }
+    .service2{
+        padding-left:60px;
+    }
+    .service3{
+        padding-left:60px;
+        padding-top: 10px;
+    }
+    .form{
+        width:300px;
+        margin-left:50px;
+    }
+    /*footer*/
+    footer{
+        height:500px;
+    }
+    
+    .contact-media{
+        padding-left:70px; 
+        
+    }
+    .contact-media a{
+        padding-left:90px;    
+    }
+}
+
+@media screen and (max-width:360px){
+
+}
+@media screen and (max-width:0px){
+    
+}
+@media screen and (max-width:450px){
+    
+}
+
+
