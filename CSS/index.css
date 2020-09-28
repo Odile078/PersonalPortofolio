@@ -1,0 +1,39 @@
+/*header section*/
+.menu{
+    height: 90px;
+    background-color: black;
+}
+.side-menu1{
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+
+}
+.side-menu2{
+    padding-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.side-menu2 a{
+    text-decoration: none;
+    padding-left: 40px;
+    color: white;
+    font-size: 15px;
+}
+.side-menu2 a:hover{
+    color: rgb(65, 194, 211);
+    font-size: 18px;  
+    transition:max-width ease .3s;
+
+}
+.line{
+    width:40px;
+    height:3px;
+    background-color:#fff;
+    margin-left: 245px;
+    margin-top: 15px;
+
+}
