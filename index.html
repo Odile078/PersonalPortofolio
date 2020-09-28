@@ -118,8 +118,27 @@
         </div>
         <div class="jumbotron">
             <p>Have questions or a project you would like to discuss? Contanct me</p>
+            <form class="form">
+                <div class="form-group">
+                    <label for="name" class="labels" required>Name</label>
+                    <input type="text" id="name"class="form-control"  >
+                </div>
+                <div class="form-group">
+                    <label for="date" class="labels" required>Email </label>
+                    <input type="email" id="email" class="form-control" >
+                </div>
+                <div class="form-group">
+                    <label for="month" class="labels">Subject</label>
+                    <input type="text" id="subject" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="year" class="labels">Message in Details</label>
+                    <textarea name="message" id="" cols="35" rows="3" required></textarea>
+                    
+                </div>
+                <button type="submit" class="btn btn-primary" onsubmit="alert('Message successfuly sent.')">Send</button>
             
-
+            </form>
         </div>
 
     </section>
