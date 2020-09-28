@@ -49,3 +49,40 @@
     transform:translate(290px);
     width:60px;
 }
+.welcome{
+    height: 400px;
+    background-color: cadetblue;
+}
+.intro1{
+    float: left;
+    text-align: center;
+    margin-top: 100px;;
+}
+
+.intro1 p{
+    font-size: 30px;
+    
+  }
+  
+ .intro1 p::after{
+    content: " I am a Web Developper";
+    animation: textanim 10s linear infinite;
+  }
+  
+  @keyframes textanim{
+    25%{
+      content: " and a Web Designer";
+    }
+   
+    
+  }
+  
+.intro2{
+    float: right;
+    margin: 100px;
+    
+}
+.intro2 img{
+    border-radius: 50%;
+       
+}
