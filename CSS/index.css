@@ -37,3 +37,15 @@
     margin-top: 15px;
 
 }
+.side-menu2 a:nth-child(2):hover ~ .line{
+    transform:translate(90px);
+    width:60px;
+}
+.side-menu2 a:nth-child(3):hover ~ .line{
+    transform:translate(190px);
+    width:60px;
+}
+.side-menu2 a:nth-child(4):hover ~ .line{
+    transform:translate(290px);
+    width:60px;
+}
